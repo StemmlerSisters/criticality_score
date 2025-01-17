@@ -41,14 +41,14 @@ open source project:
 
 **NOTE**:
 
-- You can override those defaut values at runtime as described below.
+- You can override those default values at runtime as described below.
 - We are looking for community ideas to improve upon these parameters.
 - There will always be exceptions to the individual reasoning rules.
 
 ## Usage
 
 ```shell
-$ go install github.com/ossf/criticality_score/cmd/criticality_score@latest
+$ go install github.com/ossf/criticality_score/v2/cmd/criticality_score@latest
 
 $ export GITHUB_TOKEN=...         # requires a GitHub token to work
 $ gcloud auth login --update-adc  # optional, add -depsdev-disable to skip
